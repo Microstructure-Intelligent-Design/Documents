@@ -1,0 +1,13 @@
+\contentsline {chapter}{前言}{i}{chapter*.1}%
+\contentsline {chapter}{目录}{iii}{chapter*.2}%
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}软件介绍}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}关于软件包}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}关于开发者}{1}{section.1.2}%
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}MInDes的配置，安装}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}运行环境}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}软件安装与初次运行}{3}{section.2.2}%
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}MInDes 使用及示例}{7}{chapter.3}%
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}MInDes 输入文件(infile)}{9}{chapter.4}%
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}MInDes 输出结果}{11}{chapter.5}%
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}MInDes 常见问题}{13}{chapter.6}%
+\contentsline {chapter}{GNU Free Documentation License}{15}{appendix*.3}%

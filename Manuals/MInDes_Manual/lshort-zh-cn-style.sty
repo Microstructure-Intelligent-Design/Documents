@@ -22,6 +22,7 @@
 % 中文正文字体使用 Fandol
 %
 \PassOptionsToPackage{no-math}{fontspec}
+\PassOptionsToPackage{quiet}{fontspec}
 \RequirePackage[zihao=false,scheme=chinese,heading=true,fontset=fandol]{ctex}[2015/06/24]
 
 %
@@ -142,8 +143,6 @@
   \begin{multicols}{2}
     \@starttoc{toc}%
   \end{multicols}
-  \@makeschapterhead{\sourcecodename}%
-  \@starttoc{los}%
 }
 
 %
@@ -180,6 +179,7 @@
 \def\mailto|#1|{\href{mailto:#1}{\Email|#1|}}        % url to mail somewhere
 \def\CTANref{\begingroup \urlstyle{tt}\Url}
 \def\CTAN|#1|{\href{https://mirrors.tuna.tsinghua.edu.cn/CTAN/#1}{\CTANref|CTAN://#1|}}
+\def\MIDGroup|#1|{\href{https://github.com/Microstructure-Intelligent-Design/#1}{\begingroup \urlstyle{tt}\Url|MIDGroup://#1|}}
 \newcommand{\contrib}[3]{#1\quad\mailto|#2|{\small\\\quad\textit{#3}}\\[1ex]}
 
 %
@@ -298,7 +298,5 @@
 \fvset{fontsize=\small,frame=lines}
 \newfloat{sourcecode}{tbp}{los}[chapter]
 \floatname{sourcecode}{源代码}
-\def\sourcecodename{源代码示例列表}
-\def\l@sourcecode{\@dottedtocline{1}{1.5em}{2.3em}}
 
 \endinput
